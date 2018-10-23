@@ -1,4 +1,6 @@
 # gradle-graalvm-example
+[![Build Status](https://travis-ci.org/gregwhitaker/gradle-graalvm-example.svg?branch=master)](https://travis-ci.org/gregwhitaker/gradle-graalvm-example)
+
 An example of building a Gradle Java project as a native image with [GraalVM](https://www.graalvm.org/).
 
 This example creates a simple application that counts from 1 to the number specified as an argument.
