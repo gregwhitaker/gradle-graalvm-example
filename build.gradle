@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+sourceCompatibility = 1.8
+mainClassName = 'ggvm.example.Main'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
