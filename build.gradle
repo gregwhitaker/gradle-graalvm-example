@@ -1,12 +1,23 @@
 plugins {
     id 'java'
     id 'application'
+    id "com.palantir.graal" version "0.1.1-7-gdcfac74"
 }
 
 sourceCompatibility = 1.8
-mainClassName = 'ggvm.example.Main'
+mainClassName = 'ggvm.example.Count'
 
 repositories {
     jcenter()
     mavenCentral()
+}
+
+dependencies {
+    compile 'io.airlift:airline:0.8'
+}
+
+graal {
+    mainClass 'ggvm.example.Count'
+    outputName 'count'
+    graalVersion '1.0.0-rc5'
 }
