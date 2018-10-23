@@ -3,6 +3,15 @@
 An example of building a Gradle Java project as a native image with GraalVM.
 
 ## Running the Demo
+Follow the steps below to build and run the demo.
+
+1. Run the following command to build the application:
+
+        ./gradlew clean nativeImage
+
+2. Execute the newly built native image by running the following command:
+
+        ./build/graal/count 10
 
 ## Bugs and Feedback
 For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/gradle-graalvm-example/issues).
