@@ -12,6 +12,20 @@ Follow the steps below to build and run the demo.
 2. Execute the newly built native image by running the following command:
 
         ./build/graal/count 10
+        
+    If successful, you will see the following in the terminal:
+    
+        $ ./build/graal/count 10
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
 
 ## Bugs and Feedback
 For bugs, questions, and discussions please use the [Github Issues](https://github.com/gregwhitaker/gradle-graalvm-example/issues).
