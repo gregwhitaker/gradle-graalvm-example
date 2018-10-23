@@ -1,6 +1,7 @@
 # gradle-graalvm-example
-
 An example of building a Gradle Java project as a native image with GraalVM.
+
+This example creates a simple application that counts from 1 to the number specified as an argument.
 
 ## Running the Demo
 Follow the steps below to build and run the demo.
